@@ -1,0 +1,5 @@
+{
+  "accountUrl": "https://secure.scotiabank.com/api/credit/some-random-hash/transactions",
+  "accountName": "Scene Plus VISA",
+  "folderName": "output/sceneplus"
+}
