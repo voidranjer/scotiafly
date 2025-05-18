@@ -27,6 +27,7 @@ func main() {
 	today := time.Now()
 	todayFormatted := today.Format("2006-01-02")
 
+	// twoYearsAgo := today.AddDate(0, -1, 0)
 	twoYearsAgo := today.AddDate(-2, 0, 0)
 	twoYearsAgoFormatted := twoYearsAgo.Format("2006-01-02")
 
