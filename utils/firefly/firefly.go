@@ -19,6 +19,7 @@ type TransactionPayload struct {
 	Amount          float32
 	Date            string
 	ExternalID      string
+	Notes           string
 	AccountName     string
 }
 
@@ -44,6 +45,7 @@ func PostTransaction(payload TransactionPayload) (success bool) {
 				"amount":        payload.Amount,
 				"date":          payload.Date,
 				"external_id":   payload.ExternalID,
+				"notes":         payload.Notes,
 				sourceOrDest:    payload.AccountName,
 			},
 		},

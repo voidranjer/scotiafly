@@ -17,6 +17,7 @@ type Transaction struct {
 	TransactionAmount TransactionAmount `json:"transactionAmount"`
 	Category          Category          `json:"category"`
 	Id                string            `json:"id"`
+	UserInputTag      string            `json:"userInputTag,omitempty"` // Optional field, may not be present
 }
 
 type TransactionAmount struct {
